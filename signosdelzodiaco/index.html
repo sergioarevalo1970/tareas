@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Signos del Zodiaco</title>
+</head>
+<body>
+	<header class="container-fluid mt-3">
+		<div class="nav row g-0 justify-content-between rounded-top">
+			<div class="logo col-auto d-flex align-items-center ps-4">
+				<h2 class="fw-bold text-uppercase mb-0">Actividad - Unidad II &nbsp;&nbsp;</h2>
+				<div class="icono">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+						<path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
+					</svg>
+				</div>
+				<p class="mb-0">&nbsp;&nbsp;05125030 - Sergio Rolando Arévalo</p>
+			</div>
+			<hr>
+		</div>
+	</header>
+	<main class="container-fluid w-100">
+		<div class="row row-cols-1 row-cols-md-2 g-4">
+			<div class="col">
+				<div class="card">
+					<div class="card-header bg-transparent border-success">
+						<h3>Signos Zodiacales</h3>
+					</div>
+					<div class="card-body text-primary">
+					  <h5 class="card-title">Para saber tu signo zodiacal ingresa tus datos</h5>
+						<label for="mes" >Mes en que naciste:</label>
+						<input type="number" class="form-control" id="mes" min="1" max="12">
+						<br>
+						<label for="dia">Día en que naciste:</label>
+						<input type="number" class="form-control" id="dia" min="1" max="31">
+						<br>
+						<button class="btn btn-outline-secondary" onclick="obtenerSigno()">Buscar tu signo</button>
+					</div>
+					<div class="card-footer bg-transparent border-success">
+						<h2 id="resultado"></h2> 
+					</div>
+				  </div>
+			</div>
+			<div class="col">
+			  <div class="card">
+				<img src="img/tabladesignos.png" class="card-img-top" alt="...">
+				<div class="card-body">
+				  <h5 class="card-title">Fuente</h5>
+				  <p class="card-text">https://es.wikipedia.org/wiki/Zodiaco</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	</main>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/signos.js"></script>
+</body>
+</html>
