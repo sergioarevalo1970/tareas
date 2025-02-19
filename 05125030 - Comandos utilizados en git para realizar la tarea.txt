@@ -1,0 +1,181 @@
+sarevalo@DESKTOP-I8SCM3R MINGW64 ~
+$ cls
+bash: cls: command not found
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 ~
+$
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Pictures/
+ Plantillas@
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Videos/
+'VirtualBox VMs'/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 ~
+$ cd\
+> ls
+bash: cdls: command not found
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 ~
+$ cd ..
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/Users
+$ cd ..
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c
+$ ls
+'$Recycle.Bin'/             DumpStack.log.tmp             Users/
+'$WINDOWS.~BT'/             PerfLogs/                     Windows/
+'$WinREAgent'/             'Program Files'/               hiberfil.sys
+'Archivos de programa'@    'Program Files (x86)'/         pagefile.sys
+ Bootstrap5/                ProgramData/                  swapfile.sys
+'Chrome V130.msi'           Recovery/                     tareas/
+ Config.Msi/                SWSetup/
+'Documents and Settings'@  'System Volume Information'/
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c
+$ cd tareas
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas
+$
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas
+$ git init
+Initialized empty Git repository in C:/tareas/.git/
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "05125020-Sergio Are\314\201valo.jpg"
+        05125030 - Actividad - Unidad I.pdf
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git add .
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   "05125020-Sergio Are\314\201valo.jpg"
+        new file:   05125030 - Actividad - Unidad I.pdf
+
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git commit -m "first commit"
+[main (root-commit) 1f8783b] first commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "05125020-Sergio Are\314\201valo.jpg"
+ create mode 100644 05125030 - Actividad - Unidad I.pdf
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git remote add origin https://github.com/sergioarevalo1970/tareas.git
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git branch -M main
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 3.12 MiB | 1.21 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sergioarevalo1970/tareas.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git add .
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git commit -m "Segundo commit"
+[main 00acb79] Segundo commit
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 05125030 Actividad - Unidad 1.zip
+ create mode 100644 05125030 Actividad - Unidad 2 - juegoadivinar.zip
+ create mode 100644 05125030 Actividad - Unidad 2 - signosdelzodiaco.zip
+ create mode 100644 05125030 Actividad - Unidad 2.zip
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ ^C
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$ git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 3.61 MiB | 1.52 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/sergioarevalo1970/tareas.git
+   1f8783b..00acb79  main -> main
+branch 'main' set up to track 'origin/main'.
+
+sarevalo@DESKTOP-I8SCM3R MINGW64 /c/tareas (main)
+$
